@@ -1,0 +1,13 @@
+ /**
+ * Customize the admin editing window styles to match your site styles.
+ *
+ * @package Baseline
+ */
+ 
+*,
+html,
+body {
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 15px;
+	line-height: 1.625;
+}
