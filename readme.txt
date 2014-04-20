@@ -10,7 +10,6 @@ Thank you for downloading Baseline. Use it to build a great theme for your site.
 * LESS CSS framework
 * Login page customizations
 * Custom wp-config and wp-config-dev
-* Starter files for editing the default dashboard widgets, widgets, and creating custom post types.
 
 # Credits
 
