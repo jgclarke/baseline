@@ -41,7 +41,7 @@ b. Delete the empty '_site_root_files' directory.
 a. Replace the 'img/logo.png' with your own logo.
 b. Edit the logo file height and width dimensions on lines 9 and 10 of 'inc/admin/login-config.php'. This ensures your custom logo is the right size on the register/sign-in screens.
 4. As you're building your site, don't forget to:
-a) Modify the editor window styles to match the site styles (in 'inc/admin/editor-style.less');
-b) Modify the content width in 'inc/admin/login-config.php';
-c) Customize the appearance/hiding of default widgets by editing 'inc/admin/remove-default-widgets.php'.
+a. Modify the editor window styles to match the site styles (in 'inc/admin/editor-style.less');
+b. Modify the content width in 'inc/admin/login-config.php';
+c. Customize the appearance/hiding of default widgets by editing 'inc/admin/remove-default-widgets.php'.
 5. Further customize the theme to make it uniquely yours!
