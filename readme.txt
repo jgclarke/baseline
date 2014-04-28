@@ -31,14 +31,17 @@ Thank you for downloading Baseline. Use it to build a great theme for your site.
 
 # Theme Usage
 
-1. Move the 'wp-config.php' and 'wp-config-dev.php' files into the root of the WordPress install and customize them. Don't upload wp-config-dev to your live/production environment — keep it in your local environment only.
-2. Delete the empty '_site_root_files' directory.
-3. Replace the 'img/logo.png' with your own logo.
-4. Edit the logo file height and width dimensions on lines 9 and 10 of 'inc/admin/login-config.php'.
-5. Search for 'baseline' (case sensitive) and replace it with an all-lowercase, no spaces version of your theme name.
-6. Search for 'Baseline' (case sensitive) across all theme files and replace it with a "friendly" version of your theme name.
-7. As you're building your site, don't forget to:
-a) Modify the editor window styles to match the site (in 'inc/admin/editor-style.less')
+1. Give your theme its own name:
+a. Search for 'baseline' (case sensitive) and replace it with an all-lowercase, no spaces version of your theme name (such as "this_amazing_theme", without the quotes).
+b. Search for 'Baseline' (case sensitive) across all theme files and replace it with a "friendly" version of your theme name (such as "This Amazing Theme", without the quotes).
+2. Use the '_site_root_files' to enhance your wp-config:
+a. Move the 'wp-config.php' and 'wp-config-dev.php' files into the root of your WordPress install and customize them. Don't upload 'wp-config-dev.php' to your live/production environment — keep it in your local/development environment only.
+b. Delete the empty '_site_root_files' directory.
+3. Customize the default theme logo:
+a. Replace the 'img/logo.png' with your own logo.
+b. Edit the logo file height and width dimensions on lines 9 and 10 of 'inc/admin/login-config.php'. This ensures your custom logo is the right size on the register/sign-in screens.
+4. As you're building your site, don't forget to:
+a) Modify the editor window styles to match the site styles (in 'inc/admin/editor-style.less');
 b) Modify the content width in 'inc/admin/login-config.php';
-c) Customize the appearance/hiding of default widgets by editing 'inc/admin/remove-default-widgets.php'
-9. Further customize the theme to make it yours!
+c) Customize the appearance/hiding of default widgets by editing 'inc/admin/remove-default-widgets.php'.
+5. Further customize the theme to make it uniquely yours!
