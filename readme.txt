@@ -16,7 +16,6 @@ Thank you for downloading Baseline. Use it to build a great theme for your site.
 * Baseline is built on the following technologies:
 ** Underscores theme by Automattic - https://github.com/Automattic/_s
 ** HTML5 Boilerplate by H5BP - https://github.com/h5bp
-** GS Starter Theme by Growthspark - https://github.com/growthspark/gs-starter-theme
 ** WordPress Skeleton by Mark Jaquith - https://github.com/markjaquith/WordPress-Skeleton
 
 # Copyright and License

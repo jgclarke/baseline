@@ -2,8 +2,6 @@
 /**
  * Remove default widgets
  *
- * From GrowthSpark's gs-starter-theme
- * https://github.com/growth-spark/gs-starter-theme
  * @package Baseline
  */
 
