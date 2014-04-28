@@ -8,6 +8,7 @@ Thank you for downloading Baseline. Use it to build a great theme for your site.
 
 * Responsive
 * LESS CSS framework
+* Lightweight, modern HTML and CSS
 * Login page customizations
 * Custom wp-config and wp-config-dev
 
