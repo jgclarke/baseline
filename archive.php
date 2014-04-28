@@ -68,8 +68,8 @@ get_header(); ?>
 
 		</div><!-- #primary -->
 		
-		<?php get_sidebar(); ?>
-		
 	</main><!-- #main -->
+	
+	<?php get_sidebar(); ?>
 		
 <?php get_footer(); ?>

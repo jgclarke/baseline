@@ -31,9 +31,9 @@ get_header(); ?>
 			<?php endif; ?>
 
 		</div><!-- #primary -->
-		
-		<?php get_sidebar(); ?>
-		
+
 	</main><!-- #main -->
+	
+	<?php get_sidebar(); ?>
 		
 <?php get_footer(); ?>
