@@ -5,8 +5,6 @@
  * @package Baseline
  */
 ?>
-
-			</div><!-- #content -->
 		
 			<footer id="site-footer" role="contentinfo">
 
