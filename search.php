@@ -7,9 +7,9 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
 	
-		<main id="main" class="site-main" role="main">
+		<div id="primary" class="content-area">
 
 			<?php if ( have_posts() ) : ?>
 	
@@ -22,7 +22,7 @@ get_header(); ?>
 	
 					<?php get_template_part( 'content', 'search' ); ?>
 	
-				<?php endwhile; ?>
+			<?php endwhile; ?>
 	
 				<?php baseline_paging_nav(); ?>
 	
@@ -31,9 +31,11 @@ get_header(); ?>
 				<?php get_template_part( 'content', 'none' ); ?>
 	
 			<?php endif; ?>
+			
+		</div><!-- #primary -->
+	
+		<?php get_sidebar(); ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+	</main><!-- #main -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
