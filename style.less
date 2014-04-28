@@ -206,15 +206,12 @@ Primary/Main content
 *****/
 
 #main {
-}
-
-#primary {
 	width: 100%;
 	float: left;
 	margin: 0 @base-size * -24 0 0;
 }
 
-#content {
+#primary {
 	margin: 0 @base-size * 24 0 0;
 	background: lighten(@base-color, 70%);
 }
@@ -263,17 +260,17 @@ header.entry-header {
 
 /* Page/post navigation */
 
-#content .site-navigation {
+#primary .site-navigation {
 	margin: 0 0 @base-size * 1.5;
 	overflow: hidden;
 }
 
-#content .nav-previous {
+#primary .nav-previous {
 	float: left;
 	width: 50%;
 }
 
-#content .nav-next {
+#primary .nav-next {
 	float: right;
 	text-align: right;
 	width: 50%;
@@ -559,11 +556,11 @@ From HTML5 Boilerplate - http://html5boilerplate.com/
         text-decoration: underline;
     }
 
-    a[href]:after {
+    #primary a[href]:after {
         content: " (" attr(href) ")";
     }
 
-    abbr[title]:after {
+    #primary abbr[title]:after {
         content: " (" attr(title) ")";
     }
 
