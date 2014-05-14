@@ -104,6 +104,11 @@ Header
 header#site-header {
 	padding: @base-size 0 0;
 	text-align: center;
+	
+	#small-menu-pointer {
+		display: none;
+	}
+	
 }
 
 /* Menu */
@@ -206,12 +211,15 @@ Primary/Main content
 *****/
 
 #main {
-	width: 100%;
-	float: left;
-	margin: 0 @base-size * -24 0 0;
 }
 
 #primary {
+	width: 100%;
+	float: left;
+	margin: 0 @base-size * -24 0 0;	
+}
+
+#content {
 	margin: 0 @base-size * 24 0 0;
 	background: lighten(@base-color, 70%);
 }
